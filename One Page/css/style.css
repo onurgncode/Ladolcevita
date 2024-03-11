@@ -8,7 +8,7 @@
     font-weight: 100;
     font-style: normal;
     text-align: center;
-    transition-duration: 1.5s;
+    
     scroll-behavior: smooth;
 }
 body{
@@ -46,6 +46,44 @@ hr{
     text-shadow: black 2px 2px;
     
 }
+
+table input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+    font-size: larger;
+    text-align: center;
+}
+.buyu{
+    
+    
+}
+table tr{
+    width: 100%;
+}
+table td{
+    text-align: left;
+    width: 40%;
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+
+.table{
+    top: 18%;
+    border: 1px solid red;
+    padding: 50px;
+    position: relative;
+}
+
+
+
 .header1 h1{
     margin-top: 5%;
     color: white;
@@ -56,7 +94,8 @@ hr{
     width: 100%;
     height: 10%;
     position: fixed;
-    
+    top: 0;
+    z-index: 999;
 }
 .menu img{
     float: left;
