@@ -1,9 +1,10 @@
 body{
     background:url("img/arkaplan.jpg");
+    background-size:contain;
 	animation:image 15s infinite alternate;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    
     -webkit-animation:image 15s infinite alternate;
 	-moz-animation:image 15s infinite alternate;
 	transition: background 0.3s;

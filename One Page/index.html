@@ -9,8 +9,21 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
     </style>
+    
 </head>
 <body>
+    <div class="hamburger" id="mobile-menu">
+        <img src="img/hamburger.webp" alt="">    
+    </div>
+    
+    <div class="menuphone">
+        
+        <ul>
+            <li><a href="index.html">ANASAYFA</a></li>
+            <li><a href="nasilCalis.html">NASIL ÇALIŞIYOR</a></li>
+            
+        </ul>
+    </div>
     <div class="menu">
         <img src="img/logo.png" alt="logo">
         <ul>
@@ -18,8 +31,8 @@
             <li><a href="nasilCalis.html">Nasıl Çalışıyor</a></li>
             
         </ul>
-    </div>
-
+    </div><br><br>
+    
         
 
 
@@ -34,7 +47,7 @@
         </div>
             <div class="kayitol1">
                 <span class="baslik" style="font-weight: 500; color: #142033; text-shadow: black 1.2px 1.2px;">VARLIKLIKLI BİR <span style="color: blue; font-weight: 500;"> ERKEKSEN</span></span>
-                <a href="erkek.html"><button class="but1">Kayıt Ol</button></a>
+                <br><a href="erkek.html"><button class="but1">Kayıt Ol</button></a>
             </div>
             <div class="kayitol2">
                 <span class="baslik" style="font-weight: 500; color: #142033; text-shadow: black 1.2px 1.2px;">GÜZEL BİR <span style="color: red; font-weight: 500;">KIZ İSEN  </span></span><br>
@@ -47,4 +60,17 @@
     
     
 </body>
+<script>
+    document.getElementById('mobile-menu').addEventListener('click', function() {
+  var navList = document.querySelector('.menuphone');
+  // .nav-list elementinin display özelliğini kontrol et
+  if (navList.style.display === 'none' || navList.style.display === '') {
+    navList.style.display = 'flex'; // Göster
+    
+  } else {
+    navList.style.display = 'none'; // Gizle 
+    
+  }
+});
+</script>
 </html>
