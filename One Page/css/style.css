@@ -25,10 +25,15 @@ hr{
 }
 .header1{
     width: 90%;
-    height: 50rem;
+    height: 40rem;
     display: block;
     margin: auto;
     font-size: xx-large;
+    
+}
+.header1 h1{
+    margin-top: 5%;
+    color: white;
     
 }
 #header2{
@@ -84,10 +89,7 @@ table{
 
 
 
-.header1 h1{
-    margin-top: 5%;
-    color: white;
-}
+
 
 .menu{
     background-color: #142033;
@@ -130,18 +132,7 @@ table{
     float: left;
     margin-top: 70px;
 }
-button{
-    width: 50%;
-    height: 35px;
-    border-radius: 15px;
-    border-color: none;
-    box-shadow: #1e2d44 5px 5px;
-    font-size: large;
-}
-button:hover{
-    box-shadow: none;
-    cursor: pointer;
-}
+
 
 .footer{
     
