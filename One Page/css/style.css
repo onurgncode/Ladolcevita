@@ -4,8 +4,18 @@
 .hamburger{
     display: none;
 }
+#logo2{
+    display: none;
+}
+.baslik{
+    
+    color: white !important;
+}
 /*Ekran Responsive tasarım*/
 @media screen and (max-width: 600px){
+    button{
+        width: 80% !important;
+    }
     .header1 h1{
         margin-top: 30% !important;
         color: white;
@@ -15,7 +25,8 @@
         height: 60rem !important;
     }
     .baslik{
-        font-size: x-large;
+        font-size: xx-large;
+        
     }
     .menu img{
         display: none;
@@ -27,11 +38,19 @@
     .hamburger{
         display: block;
         width: 100%;
+        height: 100px;
+        background-color: rgba(30, 45, 68, 0.9);
     }
     .hamburger img{
         width: 20%;
         float: right;
         margin: 10px;
+    }
+    #logo2{
+        float: left !important;
+        margin: 10px;
+        width: 20%;
+        display: flex;
     }
     .hamburger:hover{
         cursor: pointer;
@@ -45,7 +64,7 @@
     top: 0px;
     left: 0;
     width: 100%;
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(51, 51, 51, 0.8);
     height: 40rem;
     
     }
@@ -57,18 +76,16 @@
         font-size: xxx-large;
         
     }
-    .menuphone ul {
-        
-        
-    }
+    
     .menuphone ul li{
         border-radius: 5px;
         padding: 20px;
-        background-color: rgba(202, 202, 202, 0.8);
+        background-color: rgba(30, 45, 68, 0.8);
     }
     
     .kayitol1{
         width: 100% !important;
+        
     }
     .kayitol2{
         width: 100% !important;
@@ -77,8 +94,16 @@
         display: none;
     }
 }
+@media screen and (max-width: 1000px){
+    .menu img{
+        width: 25% !important;
+    }
+}
 @media screen and (max-width: 800px)
 {
+    .menu img{
+        width: 30% !important;
+    }
     .menu ul{
         float: right;
         margin: 10px;
@@ -145,7 +170,7 @@ table input{
     height: 50px;
     border-radius: 5px;
     border: none;
-    text-align: left;
+    
     font-size: larger;
     text-align: center;
 }
@@ -155,11 +180,13 @@ table input{
 }
 table tr{
     width: 100%;
+    margin: auto;
+   
 }
 table td{
     text-align: left;
-    width: 40%;
-    border: 1px solid black;
+    width: 100%;
+    
 }
 table{
     width: 100%;
@@ -170,12 +197,23 @@ table{
 
 .table{
     top: 18%;
-    border: 1px solid red;
-    padding: 50px;
+    
+    
     position: relative;
 }
 
-
+button{
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    border-color: none;
+    box-shadow: #1e2d44 5px 5px;
+    font-size: large;
+}
+button:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
 
 
 
@@ -231,7 +269,9 @@ table{
     margin-top: 100px;
     
 }
-
+.menu img{
+    width: 15%;
+}
 .footer img{
     margin-top:30px;
     width: 30%;
