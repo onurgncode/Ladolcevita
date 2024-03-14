@@ -6,57 +6,67 @@
         text-shadow: black 3px 3px;
     }
     button{
-        width: 100% !important !important;
+        width: 100% !important;
         
     }
     
 }
 body{
+    
     background:url("img/arkaplan.jpg");
-    background-size:contain;
-	animation:image 15s infinite alternate;
+    background-size:cover;
+	animation:image 15s alternate-reverse !important;
+   
     background-position: center;
     background-repeat: no-repeat;
-    
     -webkit-animation:image 15s infinite alternate;
 	-moz-animation:image 15s infinite alternate;
-	transition: background 0.3s;
     background-color: #1e2d44;
     
-    /*
-    background-image: url("../img/backr.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;*/
 }
 @keyframes image{
 	0%{
 		background:url("img/arkaplan.jpg");
+        background-size:cover;
+        animation:image 5s infinite alternate;
+        animation-delay: 2s;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
-        
+        -webkit-animation:image 15s infinite alternate;
+        -moz-animation:image 15s infinite alternate;
 	}
 
-    50%{
+    25%{
 		background:url("img/arkaplan2.jpg");
+        background-size:cover;
+        animation:image 5s infinite alternate;
+        animation-delay: 2s;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        -webkit-animation:image 15s infinite alternate;
+        -moz-animation:image 15s infinite alternate;
 	}
 
 	80%{
 		background:url("img/arkaplan3.jpg");
+        background-size:cover;
+        animation:image 5s infinite alternate;
+        animation-delay: 2s;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        -webkit-animation:image 15s infinite alternate;
+        -moz-animation:image 15s infinite alternate;
 	}
 
 	100%{
 		background:url("img/arkaplan4.jpg");
+        background-size:cover;
+        animation:image 5s infinite alternate;
+        animation-delay: 2s;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        -webkit-animation:image 15s infinite alternate;
+        -moz-animation:image 15s infinite alternate;
 	}
 
 	
