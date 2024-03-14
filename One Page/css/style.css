@@ -50,7 +50,7 @@
     }
     .header1{
         width: 100% !important;
-        height: 60rem !important;
+        height: 0 !important;
         margin-top: 0% !important;
     }
     .baslik{
