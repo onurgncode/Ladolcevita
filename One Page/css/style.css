@@ -1,6 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+#google_translate_element img{
+    display: none !important;
+}
+#google_translate_element{
+    position:fixed;
+    z-index: 2000 !important;
+    margin: 0px;
+    margin-left: 210px ;
+    width: 50px !important;
+    
+}
 .hamburger{
     display: none;
 }
@@ -11,18 +22,36 @@
     
     color: white !important;
 }
+.menuphone{
+    display: none;
+}
 /*Ekran Responsive tasarım*/
 @media screen and (max-width: 600px){
+    #google_translate_element{
+        position:absolute !important;
+        margin-top: 0 !important;
+        margin: 0px;
+        margin-left: 50px ;
+        
+        
+    }
     button{
         width: 80% !important;
     }
-    .header1 h1{
+    
+    .header1 img{
         margin-top: 30% !important;
+    }
+    .header1 h1{
+        
+        margin-top: 0% ;
         color: white;
         font-size: xxx-large;
     }
     .header1{
-        height: 60rem !important;
+        width: 100% !important;
+        height: 40rem !important;
+        margin-top: 0% !important;
     }
     .baslik{
         font-size: xx-large;
@@ -70,7 +99,7 @@
     }
     
     .menuphone ul li a{
-        color :black;
+        color :white;
         opacity: 100% !important;
         text-decoration: none;
         font-size: xxx-large;
@@ -172,8 +201,9 @@ table input{
     border: none;
     
     font-size: larger;
-    text-align: center;
+    text-align: left;
 }
+
 .buyu{
     
     
