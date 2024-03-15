@@ -5,7 +5,7 @@
     display: none !important;
 }
 #google_translate_element{
-    position:fixed;
+    position:absolute;
     z-index: 2000 !important;
     margin: 0px;
     margin-left: 210px ;
@@ -24,6 +24,7 @@
 }
 .menuphone{
     display: none;
+    z-index: 2500 !important;
 }
 /*Ekran Responsive tasarım*/
 @media screen and (max-width: 600px){
@@ -50,7 +51,7 @@
     }
     .header1{
         width: 100% !important;
-        height: 0 !important;
+        height: 100% !important;
         margin-top: 0% !important;
     }
     .baslik{
